@@ -64,3 +64,4 @@ drop table openalex.works_referenced_works;
 
 drop table openalex.works_related_works;
 
+drop schema if exists openalex;
