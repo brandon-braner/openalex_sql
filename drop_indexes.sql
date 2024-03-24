@@ -1,0 +1,6 @@
+DROP INDEX IF EXISTS openalex.concepts_ancestors_concept_id_idx;
+DROP INDEX IF EXISTS openalex.concepts_related_concepts_concept_id_idx;
+DROP INDEX IF EXISTS openalex.concepts_related_concepts_related_concept_id_idx;
+DROP INDEX IF EXISTS openalex.works_primary_locations_work_id_idx;
+DROP INDEX IF EXISTS openalex.works_locations_work_id_idx;
+DROP INDEX IF EXISTS openalex.works_best_oa_locations_work_id_idx;
